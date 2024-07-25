@@ -1,15 +1,31 @@
 {
-  "miniprogramRoot": "./dist",
-  "projectname": "myApp",
-  "description": "Applet for You",
-  "appid": "wxd0b239da89063107",
-  "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "enhance": false,
-    "compileHotReLoad": false,
-    "postcss": false,
-    "minified": false
-  },
-  "compileType": "miniprogram"
+	"miniprogramRoot": "dist/",
+	"projectname": "applet-toi",
+	"description": "Applet for You",
+	"appid": "wxd0b239da89063107",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"enhance": false,
+		"compileHotReLoad": false,
+		"postcss": false,
+		"minified": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "3.5.1",
+	"srcMiniprogramRoot": "dist/",
+	"packOptions": {
+		"ignore": [],
+		"include": []
+	},
+	"condition": {},
+	"editorSetting": {
+		"tabIndent": "tab",
+		"tabSize": 2
+	}
 }
